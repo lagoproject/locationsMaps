@@ -112,7 +112,7 @@ xi=23
 yi=23
 xi,yi=map(lon,lat)
 if ignore[0]==0:
-  plt.scatter(xi,yi,marker='^',s=200,color='#0033CC',label='Up and running')
+  plt.scatter(xi,yi,marker='^',s=200,color='#0033CC',label='Stable')
 if ignore[2]==0:
   plt.scatter(xi,yi,marker='s',s=200,color='#FF8C00',label='Deploying')
 if ignore[1]==0:

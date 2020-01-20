@@ -1,4 +1,3 @@
-#pylab inline
 from pandas import read_csv
 from matplotlib.pyplot import *
 import sys,os
