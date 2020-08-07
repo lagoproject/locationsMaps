@@ -1,5 +1,3 @@
-Autor: Arturo Núñez
-Versión original: https://github.com/luturonunca/LAGOmaps.git
 
 <!---
 
@@ -20,7 +18,7 @@ Versión original: https://github.com/luturonunca/LAGOmaps.git
                         | |   | |
                         |_|   |_|
 
---->
+-->
 
 ## LAGO mapper
 
@@ -35,3 +33,7 @@ Desde la terminal correr:
 el formato del archivo DATOS_DE_LOS_SITIOS debe ser como el que se muestra en la cabecera del archivo ``DatosRC.dat``: Nombre, altura, Lat, Long, Status, R_U, R_C, R_L,
 
 Los datos son ordenados por ``sorteador.py`` para que aparezcan segun su latitud
+
+## Autor
+
+Arturo Núñez, Versión original en: [este enlace](https://github.com/luturonunca/LAGOmaps.git)
