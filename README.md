@@ -1,6 +1,8 @@
 Autor: Arturo Núñez
 Versión original: https://github.com/luturonunca/LAGOmaps.git
-``
+
+<!---
+
       ___       ___           ___           ___
      /\__\     /\  \         /\  \         /\  \
     /:/  /    /::\  \       /::\  \       /::\  \
@@ -18,7 +20,7 @@ Versión original: https://github.com/luturonunca/LAGOmaps.git
                         | |   | |
                         |_|   |_|
 
-``
+--->
 
 ## LAGO mapper
 
