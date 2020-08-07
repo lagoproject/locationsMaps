@@ -1,6 +1,6 @@
 Autor: Arturo Núñez
 Versión original: https://github.com/luturonunca/LAGOmaps.git
-
+``
       ___       ___           ___           ___
      /\__\     /\  \         /\  \         /\  \
     /:/  /    /::\  \       /::\  \       /::\  \
@@ -18,19 +18,18 @@ Versión original: https://github.com/luturonunca/LAGOmaps.git
                         | |   | |
                         |_|   |_|
 
+``
 
+## LAGO mapper
 
+Realiza un mapa de los sitios del proyecto [LAGO](http://lagoproject.net/) en en America Latina, junto con la grafica que coresponde a la rigidez geomagnética local del sitio. 
 
-LAGO mapper
-realiza un mapa de los sitios lago en en America latina
-junto con la grafica que coresponde a la Rigidez
-correr
-**********
-python LAGOmapa-sitios.py DatosRC.dat
-**********
-el formato del archivo DATOS_DE_LOS_SITIOS
-debe ser como el que se muestra en la cabecera 
-del archivo DatosRC.dat
+## Uso
 
-Los datos son ordentado por la rutina sorteador.py para que aparezcan
-segun su latitud
+Desde la terminal correr:
+
+``python LAGOmapa-sitios.py DATOS_DE_LOS_SITIOS.dat``
+
+el formato del archivo DATOS_DE_LOS_SITIOS debe ser como el que se muestra en la cabecera del archivo ``DatosRC.dat``: Nombre, altura, Lat, Long, Status, R_U, R_C, R_L,
+
+Los datos son ordenados por ``sorteador.py`` para que aparezcan segun su latitud
