@@ -28,13 +28,13 @@ def estatus(x):
   elif x=='planned':
     status=('o','#CC0000')
   else:
-    print x
+    print (x)
     sys.exit("ERROR--ESTAUS DE SITIO NO VALIDO!!!")
   return status
 
 ################### ordena el archivo de datos por latitud#######
 
-os.system('python sorteador.py '+sys.argv[1]+' 2 > misdatos.dat')
+os.system('python3 sorteador.py '+sys.argv[1]+' 2 > misdatos.dat')
 files=open('misdatos.dat')
 
 

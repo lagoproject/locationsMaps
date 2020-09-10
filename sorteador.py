@@ -13,4 +13,4 @@ for line in file:
 
 array=sorted(lats, key=lambda lat: lat[int(sys.argv[2])])
 for i in range(0,len(array)):
-  print str(array[i][0])+','+str(array[i][1])+','+str(array[i][2])+','+str(array[i][3])+','+str(array[i][4])+','+str(array[i][5])+','+str(array[i][6])+','+str(array[i][7])+','
+  print ( str(array[i][0])+','+str(array[i][1])+','+str(array[i][2])+','+str(array[i][3])+','+str(array[i][4])+','+str(array[i][5])+','+str(array[i][6])+','+str(array[i][7])+',' )

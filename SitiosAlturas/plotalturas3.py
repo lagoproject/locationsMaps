@@ -18,7 +18,7 @@ if ig==3:
   sys.exit("ERROR--IGNORANDO TODO!!!")
 
 #########################################################################
-os.system("python sorteador.py "+sys.argv[1]+" 2 > misdatos.dat")
+os.system("python3 sorteador.py "+sys.argv[1]+" 2 > misdatos.dat")
 files=open('misdatos.dat')
 
 labels=[]
@@ -105,13 +105,13 @@ for y in range(-80,30,10):
 
 if ignore[0]==0:
   #plot(xon,yon,lw=2.5,color='#0033CC',marker='^',ms=30,label='working')
-  scatter(xon,yon,marker='^',zorder=10,s=300,color='#0033CC',label='Up and running')
+  scatter([xon],[yon],marker='^',zorder=10,s=300,color='#0033CC',label='Up and running')
 if ignore[1]==0:
   #plot(xso,yso,lw=2.5,color='#CC0000',marker='s',ms=30,label='coming soon')
-  scatter(xso,yso,marker='s',zorder=10,s=300,color='#FF8C00',label='Deploying')
+  scatter([xso],[yso],marker='s',zorder=10,s=300,color='#FF8C00',label='Deploying')
 if ignore[2]==0:
   #plot(xuc,yuc,lw=2.5,color='#FFFF00',marker='o',ms=30,label='under consideration')
-  scatter(xuc,yuc,marker='o',zorder=10,s=300,color='#CC0000',label='Planned')
+  scatter([xuc],[yuc],marker='o',zorder=10,s=300,color='#CC0000',label='Planned')
 
 
 ######################################################################

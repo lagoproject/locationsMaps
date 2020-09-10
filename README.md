@@ -28,7 +28,7 @@ Realiza un mapa de los sitios del proyecto [LAGO](http://lagoproject.net/) en en
 
 Desde la terminal correr:
 
-``python LAGOmapa-sitios.py DATOS_DE_LOS_SITIOS.dat``
+``python3 LAGOmapa-sitios.py DATOS_DE_LOS_SITIOS.dat``
 
 el formato del archivo DATOS_DE_LOS_SITIOS debe ser como el que se muestra en la cabecera del archivo ``DatosRC.dat``: Nombre, altura, Lat, Long, Status, R_U, R_C, R_L,
 
